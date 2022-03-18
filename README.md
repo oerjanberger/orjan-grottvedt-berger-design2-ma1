@@ -1,1 +1,1 @@
-# orjan-grottvedt-berger-design2-ma1
+This is a module assignment for the course Design2 at Noroff university.
