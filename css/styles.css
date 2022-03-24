@@ -72,12 +72,15 @@ ul {
 }
 
 h1 {
-    /* color: rgba(21, 25, 31, 0.897); */
-    color: rgb(248, 247, 253);
+    
     font-size: 3.5rem;
     font-weight: 800;
     text-align: center;
-    /* text-shadow: 2px 2px 2px whitesmoke; */
+    
+}
+
+.mainpage__h1 {
+    color: rgb(248, 247, 253);
     text-shadow: 3px 3px 3px rgba(12, 13, 19, 0.794);
 }
 
@@ -96,7 +99,8 @@ h1 {
     
 }
 
-.btn:hover {
+.btn:hover,
+.product__container:hover .btn {
     background-color: #CC7770;
     color: white;
     box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.63);
@@ -155,7 +159,7 @@ h2 {
 }
 
 
-h3 {
+.featured__products h3 {
     display: none; 
 }
 
@@ -177,4 +181,59 @@ footer {
     color: #CC7770;
     display: flex;
     justify-content: space-evenly;
+}
+
+.footer__info {
+    display: flex;
+}
+
+.pin__icon {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.contact__icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.jumbo__product {
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 60px;
+}
+
+.products__h1 {
+    color: #8c6239;
+}
+
+.product__container {
+    max-width: 250px;
+}
+
+.productpage__img {
+    max-width: 900px;
+    border-radius: 50px;
+    filter: drop-shadow(10px 10px 15px #8c6239);
+}
+
+.product__img {
+    width: 250px;
+    max-height: 400px;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.price__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productBtn__container {
+    display: grid;
+    text-align: center
+}
+
+.product__container:hover .product__img {
+    filter: drop-shadow(10px 10px 15px #8c6239);
 }
