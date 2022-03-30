@@ -1,20 +1,22 @@
 body {
     height: 100%;
     margin: 0px auto;
-    font-family: 'Playfair Display', serif;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: rgba(224, 231, 241, 0.726);
     display: flex;
     flex-direction: column;
 }
 
 .wrapper {
-
     flex: 1 0 auto;
 }
 
 a {
     text-decoration: none;
     color: #CC7770;
+    font-family: 'Great Vibes', cursive;
 }
 
 a:hover,
@@ -22,9 +24,28 @@ a:hover,
     cursor: pointer;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: rogliano, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+button {
+    font-family: 'Great Vibes', cursive;
+}
+
+p {
+    font-family: sofia-pro, sans-serif;
+}
+
+
 nav {
     max-width: 100%;
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0px 5px 20px;
     min-height: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -41,7 +62,7 @@ ul {
     justify-content: space-around;
     min-width: 500px;
     list-style: none;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
 .active {
@@ -89,11 +110,10 @@ h1 {
 }
 
 .btn {
-    font-family: 'Playfair Display', serif;
     border: 1px solid rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.26);
     color: #000000;
-    font-size: 1.4rem;
+    font-size: 2rem;
     border-radius: 2px;
     padding: 10px;
     
